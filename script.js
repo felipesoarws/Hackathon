@@ -13,14 +13,14 @@ options.forEach((option) => {
 
       addItem(options[1], "selected");
       addItem(inputs[1], "block");
-      image.src = "images/man.png";
+      image.src = "images/woman.png";
     } else {
       removeItem(options[1], "selected");
       removeItem(inputs[1], "block");
 
       addItem(options[0], "selected");
       addItem(inputs[0], "block");
-      image.src = "images/woman.png";
+      image.src = "images/man.png";
     }
   });
 });
