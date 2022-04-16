@@ -42,7 +42,7 @@ buttons.forEach((button) => {
     if (check == "creator") {
       return (window.location.href = "/Hackathon/Creator/index.html");
     } else {
-      return (window.location.href = "/Hackathon/Viewer/index.html");
+      return (window.location.href = "https://www.google.com/");
     }
   });
 });
