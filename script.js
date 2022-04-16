@@ -40,7 +40,7 @@ buttons.forEach((button) => {
     const check = button.classList[1];
 
     if (check == "creator") {
-      return (window.location.href = "/Hackathon/Creator/index.html");
+      return (window.location.href = "Creator/index.html");
     } else {
       return (window.location.href = "Viewer/index.html");
     }
