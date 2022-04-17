@@ -74,4 +74,303 @@ body header .interactions a:nth-child(1) {
     font-size: 1.2rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  body main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -webkit-column-gap: 1.5rem;
+            column-gap: 1.5rem;
+  }
+}
+
+body main .live {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body main .live {
+    margin: 2rem 0 0 2rem;
+  }
+}
+
+body main .live-screen {
+  position: relative;
+  background-color: #666;
+  height: 12rem;
+  -webkit-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+}
+
+@media screen and (min-width: 425px) {
+  body main .live-screen {
+    height: 17rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body main .live-screen {
+    height: 25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body main .live-screen {
+    grid-column: 0 / 1;
+    grid-row: 0 / 1;
+    height: 25rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body main .live-screen {
+    height: 60vh;
+  }
+}
+
+body main .live-name {
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: -webkit-gradient(linear, right top, left top, from(#65e197), to(#0faea1));
+  background: linear-gradient(270deg, #65e197, #0faea1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+body main .live-name .name h2,
+body main .live-name .name p {
+  color: white;
+}
+
+body main .live-name .name h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+body main .live-name .button button {
+  color: #444242;
+  background-color: yellow;
+  -webkit-box-shadow: 0 0 1px 1px #65e197;
+          box-shadow: 0 0 1px 1px #65e197;
+  padding: 0.5rem 1rem;
+  border: 0;
+  outline: 0;
+  border-radius: 2rem;
+  font-weight: bold;
+  width: 5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 0.8rem 0;
+}
+
+body main .live-name .button button:hover {
+  -webkit-box-shadow: 0 0 1px 1px white;
+          box-shadow: 0 0 1px 1px white;
+  background-color: transparent;
+  color: white;
+}
+
+body main .chat {
+  margin: 1rem 1rem 0 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body main .chat {
+    margin: 2rem 2rem 0 0;
+  }
+}
+
+body main .chat-msgs {
+  padding: 1rem 1rem 7rem 1rem;
+  background-color: rgba(170, 255, 255, 0.4);
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body main .chat-msgs {
+    height: 26.7rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body main .chat-msgs {
+    height: 75vh;
+  }
+}
+
+body main .chat-msgs .user {
+  margin: 1rem;
+}
+
+body main .chat-msgs .user h4 {
+  color: #0faea1;
+  font-size: 1rem;
+}
+
+body main .chat-msgs .user p {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+body main .chat-input {
+  background-color: #666;
+  padding: 1rem;
+  border-radius: 0 0 0.4rem 0.4rem;
+  margin-bottom: 1rem;
+}
+
+body main .chat-input .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 0 1px 1px #c2c2c2;
+          box-shadow: 0 0 1px 1px #c2c2c2;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+body main .chat-input .input input {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #c7c7c7;
+}
+
+body main .chat-input .input input::-webkit-input-placeholder {
+  color: #c7c7c7;
+}
+
+body main .chat-input .input input:-ms-input-placeholder {
+  color: #c7c7c7;
+}
+
+body main .chat-input .input input::-ms-input-placeholder {
+  color: #c7c7c7;
+}
+
+body main .chat-input .input input::placeholder {
+  color: #c7c7c7;
+}
+
+body main .chat-input .input .send {
+  border: 0;
+  outline: 0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid yellow;
+  background-color: transparent;
+}
+
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body .popups {
+  opacity: 0;
+}
+
+body .popups.show {
+  -webkit-animation: show 1s forwards;
+          animation: show 1s forwards;
+}
+
+body .popup {
+  background-color: white;
+  position: absolute;
+  width: 8rem;
+  text-align: center;
+  border: 2px solid #65e197;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0.7rem;
+  top: 0;
+  right: 0;
+}
+
+body .popup .title {
+  text-align: center;
+}
+
+body .popup .title h4 {
+  color: #444242;
+  font-size: 0.8rem;
+}
+
+body .popup .content img {
+  margin: 1rem 0;
+  width: 5rem;
+}
+
+body .popup .button {
+  text-align: center;
+}
+
+body .popup .button a {
+  padding: 0.5rem 1rem;
+  outline: 0;
+  border-radius: 2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #65e197;
+  background-color: transparent;
+  border: 1px solid #65e197;
+  font-size: 0.8rem;
+}
+
+body .popup .button a:hover {
+  background-color: #65e197;
+  color: #666;
+}
 /*# sourceMappingURL=main.css.map */
