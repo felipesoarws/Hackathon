@@ -12,3 +12,11 @@ Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solv
 ## Site oficial 
 
 <p><a href="https://webtivo.vercel.app/">Clique aqui.</a></p>
+
+
+## Autores
+
+- [@felipesoarws](https://www.github.com/felipesoarws)
+- [@rennanmedina](https://www.github.com/rennanmedina)
+
+
