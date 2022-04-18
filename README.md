@@ -19,9 +19,11 @@ Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solv
 - [Felipe Soares](https://www.github.com/felipesoarws)
 - [Rennan Medina](https://github.com/RennanMedina19)
 
+
 ## Stack utilizada
 
-**Front-end:** HTML, SCSS and Vanilla JavaScript.
+**Front-end:** HTML, SCSS and Vanilla JavaScript. 
+
 
 ## Rodando localmente
 
