@@ -5,8 +5,9 @@ Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solv
 
 
 ## Demonstração
+![X7VAz2i](https://user-images.githubusercontent.com/86936050/163806497-b0188fbc-6624-4ab7-b99d-9b06072aaf48.gif)
 
-![AIOUnrz](https://user-images.githubusercontent.com/86936050/163806190-d033a4a1-f6b9-4566-ae56-b2e4b8c42fc3.gif)
+
 
 ## Site oficial 
 
