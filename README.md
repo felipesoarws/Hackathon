@@ -58,7 +58,7 @@ Inicie o servidor
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de felipesoares@digitalsolvers.com e de rennan@rojopublicidade.com
+Se você tiver algum feedback, por favor nos deixe saber por meio de felipesoares@digitalsolvers.com e de rennan@digitalsolvers.com
 
 
 
