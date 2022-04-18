@@ -17,6 +17,6 @@ Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solv
 ## Autores
 
 - [@felipesoarws](https://www.github.com/felipesoarws)
-- [@rennanmedina](https://www.github.com/rennanmedina)
+- [@rennanmedina](https://github.com/RennanMedina19)
 
 
