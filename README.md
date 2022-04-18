@@ -1,7 +1,7 @@
 
 # WebTivo - Hackathon
 
-Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solvers.
+Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solvers.<br>
 ![long icon](https://user-images.githubusercontent.com/86936050/163807202-ff807b04-1601-43cb-b770-1219cc5b38fa.png)
 
 
