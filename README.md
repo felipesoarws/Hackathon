@@ -18,6 +18,10 @@ Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solv
 <p><a href="https://webtivo.vercel.app/">Clique aqui.</a></p>
 
 
+## Apresentação do Pitch 
+
+<p><a href="https://youtu.be/kSOH22g7wXI">Assista aqui.</a></p>
+
 ## Autores
 
 - [Felipe Soares](https://www.github.com/felipesoarws)
