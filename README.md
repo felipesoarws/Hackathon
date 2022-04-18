@@ -23,4 +23,31 @@ Documentação oficial do projeto Webtivo feito para o Hackathon da Digital Solv
 
 **Front-end:** HTML, SCSS and Vanilla JavaScript.
 
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/felipesoarws/Hackathon.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+
 
