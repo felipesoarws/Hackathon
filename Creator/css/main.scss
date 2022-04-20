@@ -323,20 +323,20 @@ body {
             flex-wrap: wrap;
 
             .product {
-              margin: 1rem 1.8rem;
+              margin: 1.5rem 1.8rem;
               display: flex;
               align-items: flex-end;
               justify-content: center;
               text-align: center;
-              border: 2px solid black;
-              border-radius: 0.7rem;
-              padding: 3rem 1.5rem 0.5rem 1.5rem;
               cursor: pointer;
-              width: 9rem;
               transition: all 0.3s ease-in-out;
 
+              img {
+                width: 9rem;
+              }
+
               &:hover {
-                background-color: $light-green;
+                transform: scale(1.05);
               }
 
               @media screen and (min-width: 425px) {

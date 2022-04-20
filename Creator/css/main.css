@@ -417,7 +417,7 @@ body main .container .chat-and-creation .polls-creation .creation {
 }
 
 body main .container .chat-and-creation .polls-creation .creation .product {
-  margin: 1rem 1.8rem;
+  margin: 1.5rem 1.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,17 +428,18 @@ body main .container .chat-and-creation .polls-creation .creation .product {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  border: 2px solid black;
-  border-radius: 0.7rem;
-  padding: 3rem 1.5rem 0.5rem 1.5rem;
   cursor: pointer;
-  width: 9rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
+body main .container .chat-and-creation .polls-creation .creation .product img {
+  width: 9rem;
+}
+
 body main .container .chat-and-creation .polls-creation .creation .product:hover {
-  background-color: #65e197;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 @media screen and (min-width: 425px) {
